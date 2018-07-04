@@ -1,0 +1,246 @@
+body {
+	padding :	0;
+	margin :	0;
+	font-family : "Lucida Grande", "Trebuchet MS", "Bitstream Vera Sans", Verdana, Helvetica, sans-serif;
+	font-size : small;
+	background : #fff url(../i/topslice.gif) repeat-x top left;
+        text-align : center;
+}
+
+* html body {
+       font-size : x-small;
+}
+
+p {
+        margin-top : 0;
+        padding-top : 0px;
+}
+
+h2, h3, h4, h5 {
+	margin : 0;
+	padding : 0px;
+}
+
+#container {
+	text-align : center;
+        background : transparent url(../i/header.gif) no-repeat center 2px;
+}
+
+#container_two {
+        background : transparent url(../i/horz_bg.gif) repeat-y 100% 100px;
+}
+
+#block {
+	width : 730px;
+	margin : 0px auto;
+	padding-top : 183px; 
+	text-align : left;
+        background : transparent url(../i/clouds.jpg) no-repeat center 50px;
+}
+
+#top_title {
+	position : absolute;
+ 	margin-top : 18px;
+}
+
+h1#top_title span {
+	display :none;
+}
+
+#sidebar {
+	width : 165px;
+	float : right;
+	text-align : justify;
+}	
+
+#content {
+	margin : 0px 175px 0px 10px;
+	min-height : 950px;
+	height:expression( this.scrollHeight < 950? "950px" : "auto");
+}
+
+div#content img {
+	position : relative;
+	float : left;
+	margin : 10px;
+}
+
+div#sidebar ul {
+	padding : 0;
+	margin : 0;
+}
+
+div#sidebar ul li {
+        padding : 0;
+        margin : 0;
+	list-style-type : none;
+	display: inline;
+}
+
+div#sidebar ul li a {
+	background : transparent;
+	display:block;
+	padding : 10px 0px ;
+	width: 99.99%;
+	text-decoration : none;
+	color : #000;
+}
+
+div#sidebar ul li a:hover {
+	background : #336AAB;
+	color : #fff;
+}
+
+
+div#sidebar ul li a#home:hover, body.home a#home {
+        background : #708dab;
+        color : #fff;
+}
+
+div#sidebar ul li a#products:hover, body.products a#products {
+        background : #2d60a8;
+        color : #fff;
+}
+
+div#sidebar ul li a#quality:hover, body.quality a#quality {
+        background : #249a00;
+        color : #fff;
+}
+
+div#sidebar ul li a#contact:hover, body.contact a#contact {
+        background : #b22020;
+        color : #fff;
+}
+
+div#sidebar ul li a#about:hover, body.about a#about {
+        background : #634a95;
+        color : #fff;
+}
+
+div#sidebar ul li a span {
+	padding-left : 20px;
+}
+
+body.home h1,
+body.home h2, 
+body.home h3, 
+body.home h4, 
+body.home h5,
+body.home strong
+ {color :#708dab;}
+
+body.products h1,
+body.products h2, 
+body.products h3, 
+body.products h4, 
+body.products h5,
+body.products strong
+ {color :#2d60a8;}
+
+body.quality h1,
+body.quality h2,
+body.quality h3, 
+body.quality h4, 
+body.quality h5,
+body.quality strong
+ {color :#249a00;}
+
+body.contact h1,
+body.contact h2, 
+body.contact h3, 
+body.contact h4, 
+body.contact h5,
+body.contact strong
+ {color:#b22020;}
+
+body.about h1,
+body.about h2, 
+body.about h3, 
+body.about h4, 
+body.about h5,
+body.about strong
+ {color :#634a95;}
+
+
+#db {
+	font-size : xx-small;
+	margin : 11px 8px;
+	padding : 9px 2px;
+	background : transparent url(../i/light_hashed.gif) repeat-x top left;	
+	border-top : 1px solid #ccc;
+	border-bottom : 1px solid #ccc;
+	text-align : center;
+}
+
+#db a {
+ 	color : #0063DC;
+	padding : 0px 1px;
+}
+
+#db a:hover {
+	color : #fff;
+	background : #0063DC;
+}
+
+.sIFR-hasFlash h1 {
+	visibility: hidden;
+}
+
+.sIFR-hasFlash h2 {
+	visibility: hidden;
+	letter-spacing: -9px;
+	font-size: 55px;
+}
+
+.sIFR-hasFlash h5#pullquote {
+	letter-spacing: -4px;
+	visibility: hidden;
+	font-size: 24px;
+}
+
+.sIFR-flash {
+	visibility: visible !important;
+	margin: 0;
+}
+
+.sIFR-replaced {
+	visibility: visible !important;
+}
+
+span.sIFR-alternate {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 0;
+	height: 0;
+	display: block;
+	overflow: hidden;
+}
+
+h1.maintitle {
+	padding : 0;
+	margin : 10px;
+}
+
+div#content ul li {
+	list-style-type : none;
+	padding-left : 16px;
+	background: transparent url(../i/arrow.png) no-repeat center left;
+}
+
+a {
+	color : #0063DC;
+	padding : 0px 1px;
+}
+
+a:hover {
+	color : #fff;
+	background : #0063DC;
+}
+
+dt {
+	text-decoration : underline;
+}
+
+body.products div#content {
+}
